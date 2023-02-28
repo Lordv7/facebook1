@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>facebook</title>
+        <style>
+            *{
+                outline: 0px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .con{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(226,220,220);
+            }
+            .left{
+                width: 30%;
+                height: 50vh;
+            }
+            .top h1{
+                font-size: 50px;
+                color: blue;
+                padding-left: 10px;
+            }
+            .top p{
+                font-size: 20px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            .right{
+                width: 30%;
+                height: 50vh;
+                background-color: rgb(255,255,255);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                box-shadow: 5px 5px 5px 5px #888888;
+                border: 1px solid;
+                border-radius: 5px;
+            }
+            input{
+                width:80%;
+                height: 5vh;
+            }
+            input[type="text"]{margin-top: 10px;border: 1px groove blue;border-radius: 5px;}
+            input[type="password"]{margin-top: 10px;border: 1px groove blue;border-radius: 5px;}
+            input[type="button"]{margin-top: 10px;border: 1px groove blue;border-radius: 5px;background-color: blue;color: white;font-weight: bolder;}
+            .right a{
+                margin-top: 10px;
+            }
+            .right div{
+                width: 80%;
+                border: 1px solid rgb(166, 156, 168);
+                margin-top: 20px;
+            }
+            .b1{
+                margin-top: 10px;
+                height: 6vh;
+                width: 50%;
+                background-color: rgb(14, 214, 31);
+                color: white;
+                border: 1px solid rgb(14,214,31);
+                border-radius: 5px;
+            }
+            .d1{
+                position: absolute;
+                margin-top: 400px;
+                margin-left: 395px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="con">
+            <div class="left">
+                <div class="top">
+                    <h1>facebook</h1>
+                    <p>Facebook helps you connect and share </br> with the people in your life.</p>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="Email address or phone number"/>
+                <input type="password" placeholder="Password"/>
+                <input type="button" value="Log in"/>
+                <a href="#">Forgotten password?</a>
+                <div class="hr"></div>
+                <button class="b1">Create new account</button>
+            </div>
+            <p class="d1"><b>Create a page</b> for a celebrity,brand or business</p>
+        </div>
+    </body>
+</html>
